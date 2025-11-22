@@ -1,0 +1,21 @@
+{
+  "name": "@mteam/api",
+  "version": "1.0.50",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.0",
+    "drizzle-orm": "^0.44.7",
+    "elysia": "latest"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20251121.0",
+    "bun-types": "latest",
+    "drizzle-kit": "^0.31.7"
+  }
+}
