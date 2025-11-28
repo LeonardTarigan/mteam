@@ -9,5 +9,16 @@ export default defineNuxtConfig({
     public: {
       apiBaseUrl: process.env.NUXT_PUBLIC_API_BASE_URL
     }
+  },
+  ui: {
+    colorMode: false
+  },
+  app: {
+    head: {
+      titleTemplate: "MTeam | %s",
+      htmlAttrs: {
+        lang: "id"
+      }
+    }
   }
 })

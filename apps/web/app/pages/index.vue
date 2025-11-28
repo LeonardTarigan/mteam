@@ -6,6 +6,10 @@
 </template>
 
 <script setup lang="ts">
+useHead({
+  title: "Presensi"
+})
+
 const api = useApi()
 
 const { data } = await useAsyncData("ping", async () => {

@@ -1,1 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap");
+
 @import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-primary: "TikTok Sans", sans-serif;
+
+  --color-primary-50: #e8edf0;
+  --color-primary-100: #d0dae1;
+  --color-primary-200: #a2b5c3;
+  --color-primary-300: #7391a6;
+  --color-primary-400: #456c88;
+  --color-primary-500: #16476a;
+  --color-primary-600: #123955;
+  --color-primary-700: #0d2b40;
+  --color-primary-800: #091c2a;
+  --color-primary-900: #040e15;
+  --color-primary-950: #02070b;
+}
+
+body {
+  @apply font-primary bg-neutral-100;
+}
