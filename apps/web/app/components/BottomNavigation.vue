@@ -21,7 +21,13 @@
 <script setup lang="ts">
 const route = useRoute()
 
-const navigationMenu = [
+type TNavigationMenuProps = {
+  label: string
+  path: string
+  icon: string
+}
+
+const navigationMenu: TNavigationMenuProps[] = [
   {
     label: "Presensi",
     path: "/",
